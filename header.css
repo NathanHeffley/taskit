@@ -1,5 +1,6 @@
 header {
-  background: #444;
+  background: #23254a url("mountain-bg.jpg") center bottom no-repeat;
+  background-size: cover;
   padding: 1.5rem;
 }
 
