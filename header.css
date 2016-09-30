@@ -1,0 +1,40 @@
+header {
+  background: #444;
+  padding: 1.5rem;
+}
+
+/* Menu Button */
+#menu-button {
+  position: relative;
+  height: .75rem;
+  width: 1.25rem;
+  display: inline-block;
+}
+#menu-button span {
+  display: block;
+  position: absolute;
+  width: 1.25rem;
+  height: .125rem;
+  background-color: #fff;
+}
+#menu-button span:first-child {
+  top: 0;
+}
+#menu-button span:nth-child(2) {
+  top: .3125rem;
+}
+#menu-button span:last-child {
+  top: .625rem;
+}
+/* End Menu Button */
+
+#menu {
+  display: none;
+}
+
+#day {
+  color: #fff;
+  margin-top: 1.5rem;
+  font-size: 2.3rem;
+  font-weight: 300;
+}
